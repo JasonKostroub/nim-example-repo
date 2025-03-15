@@ -1,0 +1,4 @@
+proc isOdd(n: int): bool =
+  return n mod 2 != 0
+
+echo isOdd(7)
